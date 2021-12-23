@@ -1,16 +1,36 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "nickname": "Biba",
+      "email": "danil@mail.ru",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "nickname": "Boba",
+      "email": "abobus@mail.ru",
+      "password": "abobus",
+      "id": 2
+    },
+    {
+      "nickname": "Daniil",
+      "email": "daniil@mail.ru",
+      "password": "123456",
+      "id": 3
     }
   ],
-  "comments" : [
+  "rooms": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "My Room",
+      "messages": [
+        "message"
+      ],
+      "id": 1
+    },
+    {
+      "name": "My room2",
+      "messages": [],
+      "id": 2
     }
   ]
 }
